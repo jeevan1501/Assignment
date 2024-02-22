@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  background-color: #b41212; /* Choose your desired background color */
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.planets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.planet-card {
+  border: 1px solid #934343;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  background-color: #db9e9e; /* Add background color for the cards */
+}
+
+.planet-card h2 {
+  margin-bottom: 10px;
+}
+
+.planet-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.planet-card ul li {
+  margin-bottom: 5px;
+}
